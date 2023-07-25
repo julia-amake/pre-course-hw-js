@@ -7,7 +7,7 @@ let passportMarried = {
   },
 };
 
-const passportMarriedCopy = {...passportMarried, married: true};
+const passportMarriedCopy = {...passportMarried, address: {...passportMarried.address}, married: true};
 
 console.log(passportMarried);
 console.log(passportMarriedCopy);
