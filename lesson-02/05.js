@@ -6,5 +6,5 @@ let passport = {
 const passportNew = {...passport};
 passportNew.name = 'Ivan';
 
-console.log(passport);
-console.log(passportNew);
+console.log(passport.name);
+console.log(passportNew.name);
