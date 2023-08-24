@@ -1,4 +1,4 @@
-​const words = ["яблоко", "банан", "апельсин", "манго", "киви"];
+const words = ["яблоко", "банан", "апельсин", "манго", "киви"];
 
 function findOrange() {
     const pos = words.indexOf("апельсин");
